@@ -37,6 +37,6 @@
 #define QUERY_TIMEOUT_TIME_MILLISECONDS 100
 
 // This is useful for knowing whether the proxy DLL is being picked up or not
-//#ifdef _DEBUG
+#ifdef _DEBUG
 	#define MESSAGEBOX_ON_CREATEDEVICE 1
-//#endif
+#endif
